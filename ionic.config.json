@@ -1,0 +1,7 @@
+{
+  "name": "medlocate",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
