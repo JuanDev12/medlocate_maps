@@ -25,3 +25,55 @@
 #container a {
   text-decoration: none;
 }
+
+.elegant {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 600;
+  padding: 50% 0;
+}
+
+.main_title {
+  text-align: center;
+}
+
+#logo {
+  text-align: left;
+  width: 20%;
+  float: left;
+}
+
+ion-content {
+  #map {
+    width: 80%;
+    height: 60%;
+    opacity: 0;
+    transition: opacity 150ms ease-in;
+    display: block;
+    margin: 0 auto;
+    &.show-map {
+      opacity: 1;
+    }
+  }
+
+  #indicators {
+    padding: 16px;
+    height: 40%;
+    width: 80%;
+    margin: 0 auto;
+    overflow-y: auto;
+    display: block;
+  }
+}
+
+.indication_title {
+  margin: 2% auto;
+  width: 80%;
+  text-align: left;
+  border-bottom: #8c8c8c solid;
+}
+
+.title_ind {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 200;
+  padding: 2%;
+}
